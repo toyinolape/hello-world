@@ -1,0 +1,80 @@
+body{
+    background-image: url('..\titanic.jpg');
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.regform{
+    width: 800px;
+    background-color: rgb(0,0,0,0.6);
+    margin: auto;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: left;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.model{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+.eda{
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: rgba(0,0,0,0.5);
+    width: 800px;
+    margin: auto;
+}
+
+form{
+    padding: 10px;
+}
+
+.datafield{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+    width: 20%;
+}
+
+button{
+    
+    border-radius: 10px;
+    background-color: #3baf9f;
+    display: inline-block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border: 2px solid #366473;
+    padding: 10px 45px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    font-size: 24px;
+    font-weight: 700px;
+
+}
+
+
+
+.button{
+    text-align: center;
+    padding-top: 20px;
+}
+
+button:hover{
+    background-color: blue;
+}

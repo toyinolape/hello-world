@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Passenger Survival Prediction</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="regform"><h1>Passenger Survival Prediction </h1></div>
+	<div class="main">
+		<div>
+			<form method="POST" action="/predict">
+				<h2 class="datafield" id="age">Passenger class</h2>
+				<input id="age" type="number" name="Pclass">
+
+				<h2 class="datafield" id="age">Sex</h2>
+				<input id="age" type="number" name="Sex_male">
+
+				<h2 class="datafield" id="age">Age</h2>
+				<input id="age" type="number" name="Age">
+
+				<h2 class="datafield" id="age">Fare</h2>
+				<input id="age" type="number" name="Fare">
+
+				<h2 class="datafield" id="age">Embarked_Q</h2>
+				<input id="age" type="number" name="Embarked_Q">
+
+				<h2 class="datafield" id="age">Embarked_S</h2>
+				<input id="age" type="number" name="Embarked_S">
+				
+			</form>
+		</div>
+	
+
+		<div class= "model">
+			<div class="button"> 
+				<form method="GET", action='/predict'>
+					<button type="submit">Predict</button>
+				</form>
+			</div>
+			
+			<div class = "button">
+				<form method="GET", action='/train_api'>
+					<button  type="submit">Train</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="eda">
+			<div class = "button">
+				<form method="POST", action='/head'>
+					<button  type="submit">Head</button>
+				</form>
+			</div>
+
+			<div class = "button">
+				<form method="POST", action='/tail'>
+					<button  type="submit">Tail</button>
+				</form>
+			</div>
+
+			<div class = "button">
+				<form method="POST", action='/describe'>
+					<button  type="submit">Describe</button>
+				</form>
+			</div>
+		</div>
+	</div>
+		
+</body>
+</html>
